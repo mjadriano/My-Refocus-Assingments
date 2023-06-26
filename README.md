@@ -1,2 +1,27 @@
-# My Refocus Assingments
- My Refocus Assignments using HTML, CSS and Javascript
+# My-Refocus-Assignments
+"Hello, everyone! My name is Michael Jordan F. Adriano, and I'm excited to introduce myself as an Electronics Engineer who is starting an exciting career transition into the web development sector. With a passion for pushing myself and a desire to increase my knowledge in the coding field, I'm eager to embrace new opportunities and learn the intricacies of web development.
+
+I sincerely believe it is never too late to seek a new career and leave the comfort zone behind, even at the age of 34. I am aware of how difficult the field of web development is, but I am a patient, persistent person who is dedicated to reaching my objectives. I understand that this field necessitates constant learning and flexibility, and I'm prepared to meet these obstacles head-on.
+
+I have built a strong foundation in problem-solving, critical thinking, and attention to detail as an electronics engineer. These abilities, in my opinion, will be helpful assets in my development career as a web developer. I'm eager to explore the front-end and back-end programming fields, hone my skills in languages like HTML, CSS, and JavaScript, and discover frameworks and technologies that power contemporary web apps.
+
+I'm motivated to learn during this new phase by using internet resources, taking courses, and interacting with the active web development community. In order to demonstrate my development and experience, I intend to compile a portfolio of projects. I also anticipate applying my knowledge to practical situations.
+
+Age should not be a barrier to pursuing one's interest and taking on new experiences, in my opinion. I am propelled by a never-ending desire to push myself and pursue excellence in the career I have chosen. I am convinced that through hard work, determination, and a firm commitment to personal development, I can have a significant impact on the web development industry.
+
+
+# Hobbies
+Coding on computers is one of my main interests. I get a lot of satisfaction from learning new programming languages and coming up with creative solutions. I can use my imagination to solve problems and produce useful solutions while coding. Witnessing the effects that a few lines of code may have is a wonderful sensation. 
+
+I enjoy playing online games in addition to coding. After a long day at work, it acts as a recreational pastime to help me decompress. I have a platform to engage with people through online games, encouraging collaboration and teamwork in virtual environments. It's incredible how immersive experiences and limitless possibilities for adventure can be produced by digital settings.
+
+I'm also fascinated by developing PCB layouts as a pastime. I adore working with circuitry and electronics, and building PCBs enables me to materialize my ideas. My ability to think critically and identify the most effective ways to organize components while guaranteeing optimal operation is challenged by creating complex circuit boards. It's a procedure that fuses technological know-how with creative flare.
+
+
+My personal fulfillment from these pastimes is accompanied by ongoing chances for study and development. They enable me to keep up with the most recent technological developments and discover fresh opportunities for invention. Additionally, these pastimes provide me the chance to interact with people who share my interests, which promotes a sense of camaraderie and community.
+
+# Goals for this year
+"My ultimate goal as a web developer is to leverage my passion for technology and creativity to build innovative and user-centric web applications. I aspire to contribute to the digital landscape by crafting engaging and intuitive user experiences through clean and efficient code. With a strong foundation in electronics engineering and a growing expertise in web development, I aim to seamlessly blend my problem-solving skills and attention to detail to deliver high-quality solutions. I strive to stay up-to-date with the latest industry trends and emerging technologies, constantly expanding my skill set to adapt to the ever-evolving web development landscape. Ultimately, my goal is to make a meaningful impact by developing robust and scalable web applications that enhance people's lives and bring their ideas to life. I am committed to continuous learning, collaborating with talented professionals, and pushing the boundaries of what is possible in the digital realm."
+
+# Reasons why I want to be a web developer
+Because of the quick growth of technology and the opportunity for a fulfilling profession with a good income, I am drawn to the field of web development. I'm fascinated by how quickly technology is developing, and I get a great deal of joy from staying on top of the latest developments in web development. It gives me the chance to constantly learn new things and broaden my skill set, making sure that I am continually pushing my limitations and challenging myself. A further incentive is the potential for a lucrative job with a promising future. A further incentive is the potential for a lucrative job with a promising future. I am aware that web development is a tough and in-demand career, and I am determined to putting in the time and effort required to build the skills and knowledge that will make me marketable. I am convinced that pursuing a career in web development will enable me to experience both professional success and personal fulfillment because it combines my love of technology with the opportunity for financial.
