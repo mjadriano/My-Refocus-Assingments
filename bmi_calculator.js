@@ -12,4 +12,4 @@ function bmi(weight, height){
     }
 }
 
-bmi(150, 70);
+bmi(100, 50);
