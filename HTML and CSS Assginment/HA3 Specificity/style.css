@@ -1,0 +1,11 @@
+.head {
+    color: purple;
+}
+
+#subhead {
+    color: pink;
+}
+
+:root, p {
+    color: gray;
+}

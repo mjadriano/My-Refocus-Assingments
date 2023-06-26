@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    
+    <form action="" name="signup" id="signup-form">
+        <h1>Registration Form for Vaccination Information</h1>
+
+        <!-- First Name -->
+        <div class="form-control">
+            <div id="error-Fname" class="error"></div>
+            <div id="myDiv">
+                <label>First Name </label>
+                <input type="text" name="Fname" id=""/>
+            </div>
+        </div>
+
+        <!-- Middle Name -->
+        <div class="form-control">
+            <div id="error-Mname" class="error"></div>
+            <div id="myDiv">
+                <label>Middle Name </label>
+                <input type="text" name="Mname" id="" />
+            </div>
+        </div>
+
+        <!-- Last Name -->
+        <div class="form-control">
+            <div id="error-Lname" class="error"></div>
+            <div id="myDiv">
+                <label>Last Name </label>
+                <input type="text" name="Lname" id="" />
+            </div>
+        </div>
+
+        <!-- Birthday -->
+        <div class="form-control">
+            <div id="error-bday" class="error"></div>
+            <div id="myDiv">
+                <label>Birthday</label>
+                <input type="date" name="bday" id="" />
+            </div>
+        </div>
+
+        <!-- Email -->
+        <div class="form-control">
+            <div id="error-email" class="error"></div>
+            <div id="myDiv">
+                <label>Email </label>
+                <input type="email" name="email" id="" />
+            </div>
+        </div>
+
+        <!-- Region Selection -->
+        <div class="form-control">
+            <div id="myDiv">
+                <label> Seclect Region </label>
+                <select name="selectRegion" id="">
+                    <option value=""> -select one-</option>
+                    <option value="ilocos">Region I - Ilocos Region</option>
+                    <option value="cagayan">Region II - Cagayan Valley </option>
+                    <option value="cLuzon">Region III - Central Luzon</option>
+                    <option value="calabarzon">Region IV ‑ A CALABARZON</option>
+                    <option value="mimaropa">MIMAROPA Region</option>
+                    <option value="bicol">Region V - Bicol Region</option>
+                    <option value="wVisayas">Region VI - Western Visayas</option>
+                    <option value="cVisayas">Region VII - Central Visayas</option>
+                    <option value="eVisayas">Region VIII - Eastern Visayas</option>
+                    <option value="zamboanga">Region IX - Zamboanga Peninsula</option>
+                    <option value="mindanao">Region X - Northern Mindanao</option>
+                    <option value="davao">Region XI - Davao Region</option>
+                    <option value="socc">Region XII - SOCCSKSARGEN</option>
+                    <option value="caraga">Region XIII - Caraga</option>
+                    <option value="">NCR - National Capital Region</option>
+                    <option value="car">CAR - Cordillera Administrative Region</option>
+                    <option value="bar">BARMM Bangsamoro Autonomous Region in Muslim Mindanao</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Province -->
+        <div class="form-control">
+            <div id="error-province" class="error"></div>
+            <div id="myDiv">
+                <label>Province</label>
+                <input type="text" name="province" id="" />
+            </div>
+        </div>
+
+        <!-- Street -->
+        <div class="form-control">
+            <div id="error-street" class="error"></div>
+            <div id="myDiv">
+                <label>Street</label>
+                <input type="text" name="street" id="" />
+            </div>
+        </div>
+
+        <!-- Gender -->
+        <div class="form-control" id="target">
+            <div id="error-gender" class="error"></div>
+            <div id="radio">
+                Gender
+                <label>
+                    Male
+                    <input type="radio" name="gender" value="Male">
+                </label>
+                <label>
+                    Female
+                    <input type="radio" name="gender" value="Female">
+                </label>
+                <label>
+                    Other
+                    <input type="radio" name="gender" value="other">
+                </label>
+            </div>
+
+            <!-- Vaccination Brand Dose 1 -->
+            <div class="form-control" id="target">
+                <div id="myDiv">
+                    <label> Select Vaccination Brand Dose 1 </label>
+                    <select name="selectDose1" id="">
+                        <option value=""> -select one-</option>
+                        <option value="pfizer">Pfizer BioNTech</option>
+                        <option value="astra">AstraZeneca</option>
+                        <option value="coron">Coronavac</option>
+                        <option value="sputnik">Sputnik V</option>
+                        <option value="janssen">Janssen</option>
+                        <option value="covaxin">Covaxin</option>
+                        <option value="moderna">Moderna</option>
+                        <option value="sinopharm">Sinopharm</option>
+                        <option value="covovax">Covovax</option> 
+                    </select>
+                </div>
+            </div>
+
+            <!-- Date of Vaccination Dose 1 -->
+            <div class="form-control" id="target">
+                <div id="error-dateDose1" class="error"></div>
+                <div id="myDiv">
+                    <label>Date of Vaccination (Dose 1)</label>
+                    <input type="date" name="dateDose1" id="" />
+                </div>
+            </div>
+
+            <!-- Vaccination Dose 1 Site -->
+            <div class="form-control" id="target">
+                <div id="error-siteDose1" class="error"></div>
+                <div id="myDiv">
+                    <label>Vaccination (Dose 1) Site</label>
+                    <input type="text" name="siteDose1" id="" />
+                </div>
+            </div>
+
+            <!-- Confirmation for Second Vaccination -->
+            <div class="form-control" id="target">
+                <div id="error-gender" class="error"></div>
+                <div id="radio">
+                    Did you already get your second vaccination?
+                    <label>
+                        Yes
+                        <input type="radio" name="secondVac" value="yes">
+                    </label>
+                    <label>
+                        No
+                        <input type="radio" name="secondVac" value="no">
+                    </label>
+                </div>
+            </div>
+
+            <!-- Vaccination Brand Dose 2 -->
+            <div class="form-control" id="selectDose2">
+                <div id="myDiv">
+                    <label> Select Vaccination Brand Dose 2 </label>
+                    <select name="selectDose2" id="">
+                        <option value=""> -select one-</option>
+                        <option value="pfizer">Pfizer BioNTech</option>
+                        <option value="astra">AstraZeneca</option>
+                        <option value="coron">Coronavac</option>
+                        <option value="sputnik">Sputnik V</option>
+                        <option value="janssen">Janssen</option>
+                        <option value="covaxin">Covaxin</option>
+                        <option value="moderna">Moderna</option>
+                        <option value="sinopharm">Sinopharm</option>
+                        <option value="covovax">Covovax</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Date of Vaccination Dose 2 -->
+            <div class="form-control" id="dateDose2">
+                <div id="error-dateDose2" class="error"></div>
+                <div id="myDiv">
+                    <label>Date of Vaccination (Dose 2)</label>
+                    <input type="date" name="dateDose2" id="" />
+                </div>
+            </div>
+
+            <!-- Vaccination Dose 2 Site -->
+            <div class="form-control" id="siteDose2">
+                <div id="error-siteDose2" class="error"></div>
+                <div id="myDiv">
+                    <label>Vaccination (Dose 2) Site</label>
+                    <input type="text" name="siteDose2" id="" />
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-control">
+                <button type="submit" name="submitBtn">Submit</button>
+                <button type="reset" name="resetBtn">Reset</button>
+            </div>
+
+    </form>
+
+    <ul>
+        <li id="name"></li>
+        <li id="infoBday"></li>
+        <li id="infoEmail"></li>
+        <li id="infoGender"></li>
+        <li id="infoAdd"></li>
+        <li id="infoBrand"></li>
+        <li id="infoDateDose1"></li>
+        <li id="infoSite1"></li>
+        <li id="infoDose2"></li>
+        <li id="infoDateDose2"></li>
+        <li id="infoSite2"></li>
+    </ul>
+    
+
+    <form action="" name="quiz">
+        <h1>Quiz</h1>
+
+        <!-- Quesiton #1 -->
+        <div class="form-control">
+            <div id="error-question1" class="error"></div>
+            <div id="myDiv">
+                <label>What is the capital of the Philippines</label>
+                <input type="text" name="question1" id="" />
+            </div>
+            <div id="answer-question1"></div>
+        </div>
+        
+        <!-- Question #2 -->
+        <div class="form-control">
+            <div id="error-question2" class="error"></div>
+            <div id="target">
+                What is the value of x in this equation: x = 3 + 2×5.
+                <label>
+                    
+                    <input type="radio" name="question2" value="x25">
+                    x = 25
+                </label>
+                <label>
+                    
+                    <input type="radio" name="question2" value="x13">
+                    x = 13
+                </label>
+                <label>
+                    
+                    <input type="radio" name="question2" value="x18">
+                    x = 18
+                </label>
+            </div>
+            <div id="answer-question2"></div>
+        </div>
+        
+
+        <!-- Question #3 -->
+        <div class="form-control">
+            <div id="error-question3" class="error"></div>
+            <div id="target">
+                Which of the following birds can fly? Choose 3 correct answers.
+                <label>
+        
+                    <input type="checkbox" name="question3" value="parrot">
+                    Parrot
+                </label>
+                <label>
+        
+                    <input type="checkbox" name="question3" value="eagle">
+                    Eagle
+                </label>
+                <label>
+        
+                    <input type="checkbox" name="question3" value="penguin">
+                    Penguin
+                </label>
+                <label>
+                
+                    <input type="checkbox" name="question3" value="crow">
+                    Crow
+                </label>
+            </div>
+            <div id="answer-question3"></div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-control">
+            <button type="submit" name="submitBtn" id="submit">Submit</button>
+            <button type="reset" name="resetBtn">Reset</button>
+        </div>
+    </form>
+</body>
+</html>

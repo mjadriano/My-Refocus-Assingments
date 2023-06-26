@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*
+.navbar {
+    background-color: #162040;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.img {
+    display: none;
+}
+
+.logo {
+    display: flex;
+}
+
+.text {
+    color: white;
+    display: flex;
+}
+
+.text-nav {
+    margin-left: 27px;
+}
+
+@media only screen and (max-width: 1023px){
+    .navbar {
+        margin-top: 30px;
+    }
+    h2 {
+        display: none;
+    }
+
+    .img {
+        display: block;
+        height: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .navbar {
+        margin: 0px;
+    }
+
+    .img {
+        display: none;
+    }
+
+    h2 {
+        display: block;
+    }
+    
+    .text {
+        display: none;
+    }
+}
+*/
+
+/* ------Advance Part-------*/
+
+
+.navbar {
+    height: 50px;
+    padding: 0px 60px;
+    background-color: #162040;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.img {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 10/17;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.text-nav {
+    margin-left: 27px;
+}
+
+@media only screen and (max-width: 1023px){
+
+    .container {
+        display: grid;
+        grid-template-rows: 25px 50px 25px;
+        grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        
+    }
+    .navbar {
+        grid-column: 1/17;
+        grid-row: 2/3;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    h2 {
+        display: none;
+    }
+
+    .img {
+        display: block;
+        height: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .img {
+        display: none;
+    }
+
+    h2 {
+        display: block;
+    }
+
+    .text {
+        display: none;
+    }
+    .container {
+        display: block;
+    }
+}

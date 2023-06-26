@@ -1,0 +1,28 @@
+
+.mobile, .tablet {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 992px){
+    .pc, .mobile {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 688px){
+    .pc, .tablet {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+}
